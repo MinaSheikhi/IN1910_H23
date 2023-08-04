@@ -1,0 +1,80 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.2.0
+    hooks:
+      - id: check-yaml
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+      - id: check-docstring-first
+        exclude: extra
+      - id: debug-statements
+        exclude: ^book/docs/slides|^slides|^extra
+      - id: requirements-txt-fixer
+
+  - repo: https://github.com/asottile/reorder_python_imports
+    rev: v3.1.0
+    hooks:
+      - id: reorder-python-imports
+        exclude: ^book/docs/slides|^slides|^extra
+
+  - repo: https://github.com/asottile/blacken-docs
+    rev: v1.12.1
+    hooks:
+      - id: blacken-docs
+        additional_dependencies: [black==22.3.0]
+        exclude: ^book/docs/slides|^slides
+
+  - repo: https://github.com/finsberg/blacken-docs-jb
+    rev: v0.6.0
+    hooks:
+      - id: blacken-docs-jb
+        additional_dependencies: [black==22.3.0]
+        exclude: slides
+
+  - repo: https://github.com/psf/black
+    rev: 22.3.0
+    hooks:
+      - id: black
+        exclude: ^slides|^extra
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.0.0
+    hooks:
+      - id: flake8
+        exclude: ^book/docs/slides|^slides|^extra
+
+  - repo: https://github.com/asottile/add-trailing-comma
+    rev: v2.2.3
+    hooks:
+      - id: add-trailing-comma
+        exclude: ^book/docs/slides|^slides
+
+  - repo: https://github.com/asottile/setup-cfg-fmt
+    rev: v1.20.1
+    hooks:
+      - id: setup-cfg-fmt
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v0.950
+    hooks:
+      - id: mypy
+        exclude: ^slides|^extra|^book/docs/slides
+
+  - repo: https://github.com/streetsidesoftware/cspell-cli
+    rev: v5.9.1
+    hooks:
+      - id: cspell
+        files: book/(.+).md|book/(.+).rst|README.md
+        exclude: ^book/docs/slides|^slides|^extra
+
+  - repo: https://github.com/pre-commit/mirrors-clang-format
+    rev: v13.0.0
+    hooks:
+      - id: clang-format
+        args: ["--style=Microsoft", "-i"]
+
+  - repo: https://github.com/finsberg/clang-format-docs
+    rev: v0.2.0
+    hooks:
+      - id: clang-format-docs
+        additional_dependencies: [clang-format==14.0.6]
