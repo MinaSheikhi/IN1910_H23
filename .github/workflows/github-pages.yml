@@ -28,20 +28,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.10"
-
-      - name: Install dependencies
-        run: python3 -m pip install -r requirements.txt
-
       - name: Build docs
         run: make docs
 
-      - name: Install jupyterlite
-        run: |
-          python3 -m pip install jupyterlite
       - name: Build the JupyterLite site
         run: |
           find book/docs -name '*.md' -exec jupytext --to ipynb {} +
