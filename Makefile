@@ -19,9 +19,6 @@ help:
 
 docs: ## Build book
 	jupyter-book build -W book
-	for lecture in L01 L02; do \
-		cp -r book/docs/slides/$$lecture/figures book/_build/html/docs/slides/$$lecture/ ; \
-	done
 	touch book/_build/html/.nojekyll
 
 
