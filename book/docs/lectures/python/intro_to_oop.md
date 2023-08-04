@@ -344,7 +344,7 @@ print(type(ball.area))
 print(type(ball.volume))
 ```
 
-Let us look at a different way to set up this class using *properties* in Python. To do this, we use the built-in *decorator* `@property`. A decorator is something we write right before a function/method definition, and it will change the functionality of that function/method in some way. [Project 0](../../projects/project0/project0.md) explores an example of a decorator.
+Let us look at a different way to set up this class using *properties* in Python. To do this, we use the built-in *decorator* `@property`. A decorator is something we write right before a function/method definition, and it will change the functionality of that function/method in some way. Project 0 explores an example of a decorator.
 
 When we add the `@property` decorator to a method in a class, that method will behave as a data field outside the class.
 
