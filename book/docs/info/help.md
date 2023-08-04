@@ -24,7 +24,7 @@ If you have any comments, thoughts, criticisms or suggestions, please do not hes
 
 Below you will find the name of the teaching assistant for each group
 
-- Group 1: Mansur (mansurd@ifi.uio.no)
-- Group 2: Aline (a.r.brunvoll@astro.uio.no)
-- Group 3: Maria  (marihoyd@math.uio.no)
-- Group 4: Johannes (johanbir@ifi.uio.no)
+- Group 1:
+- Group 2:
+- Group 3:
+- Group 4:

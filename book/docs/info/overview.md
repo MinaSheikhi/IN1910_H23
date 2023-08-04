@@ -4,11 +4,10 @@ This page gives an overview of the topics for each week of the course, as well a
 
 ## Lectures
 
-There are two lectures each week (with the exception of Week 41 due to midsemester exams), at
-* Wednesdays 08.15 - 10.00
-* Fridays 12.15-14.00
+There are two lectures each week (with the exception of Week 41), at
+* Thursday 12.15-14.00 in KN, Store auditorium
+* Friday 12.15-14.00 in OJD Aud Simula
 
-Lectures are held physically in OJD Simula.
 
 Note that the lecture notes might get minor updates and revisions as the semester runs, and should not be considered completely finalized before the week they are actually lectured---no major revisions will be made however, so if you want to get ahead of the curriculum, feel free to read future lectures ahead of time.
 

@@ -1,12 +1,12 @@
 # Lectures
 
 There are two lectures each week (with the exception of Week 41), at
-* Wednesday 08.15-10.00
-* Friday 12.15-14.00
+* Thursday 12.15-14.00 in KN, Store auditorium
+* Friday 12.15-14.00 in OJD Aud Simula
 
-Lectures are held physically in OJD Simula.
 
-See https://www.uio.no/studier/emner/matnat/ifi/IN1910/h22/timeplan for more info.
+
+See https://www.uio.no/studier/emner/matnat/ifi/IN1910/h23/timeplan for more info.
 
 
 ## Lecture Plan
@@ -23,9 +23,9 @@ At of the start of the semester, the lecture plan is as follows
 - Week 41 - No lectures (Midsemester exams)
 - Week 42 - Data structures and Algorithms
 - Week 43 - Random number generators
-- Week 44 - Stochastic Simulation
-- Week 45 - Introduction to data science
-- Week 46 - Software Optimization and Mixed Programming
-- Week 47 - Parallel programming and Course Summary
+- Week 44 - Stochastic Simulation and Software Optimization
+- Week 45 - Mixed Programming and Parallel programming
+- Week 46 - Introduction to data science
+- Week 46 - Course Summary and Q&A
 
 Please note that the lecture plan can change somewhat during the semester if need be, though we will keep you informed about any major changes that are made.

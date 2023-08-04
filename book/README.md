@@ -1,6 +1,9 @@
 # IN1910 – Programming with Scientific Applications
 
 This repository is meant for sharing teaching materials, info and exercises for the course IN1910, for the fall semester 2023.
+This site is hosted at https://pages.github.uio.no/IN1910/IN1910_H23
+There is also an interactive version of this website running on https://pages.github.uio.no/IN1910/IN1910_H23/lite
+
 
 General information about the course can be found on the [course site](https://www.uio.no/studier/emner/matnat/ifi/IN1910/h23/index.html), and we will publish some messages there. However, most information will be shared directly through the course repository here on Github.
 
