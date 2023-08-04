@@ -56,14 +56,14 @@ There are weekly group sessions where you get help with both the weekly exercise
     * [Methods in Python](../lectures/python/oop_methods.md)
     * [Code Style and Documentation](../lectures/python_development/codestyle_and_docstrings.md)
 * Exercises
-    * [Project 1](../projects/project1/project1.md)
+    * Project 1
 
 #### Week 38 —Object-Oriented design and functional programming in python
 * Lecture notes
     * [Designing Object-Oriented Programs](../lectures/python/oop_concepts.md)
     * [Functional programming in python](../lectures/python/functional_programming.md)
 * Exercises
-    * [Project 1](../projects/project1/project1.md)
+    * Project 1
     * [Pancake sorting](../exercises/week4/pancake_sort.ipynb)
     * [Pancake sorting solutions](../exercises/week4/pancake_sort_solution.ipynb)
 
@@ -98,7 +98,7 @@ There are weekly group sessions where you get help with both the weekly exercise
     * [Header files, Debugging, Code style, Testing, Documentation and Makefiles](../lectures/cpp/cpptools.md)
 
 * Exercises
-    * [Project 2](../projects/project2/project2.ipynb)
+    * Project 2
 
 #### Week 43 — Random Number Generators
 
@@ -115,7 +115,7 @@ There are weekly group sessions where you get help with both the weekly exercise
     * [Markov Processes](../lectures/stochastic_processes/markov_chains.ipynb)
 * Exercises
     * [Random Walks and Markov Processes](../exercises/week11/E9_random_walks_and_markov_process.ipynb)
-    * [Project 3](../projects/project3/project3.ipynb)
+    * Project 3
 
 #### Week 45 - Introduction to data science
 
@@ -123,7 +123,7 @@ There are weekly group sessions where you get help with both the weekly exercise
     * [Plotting with matplotlib](../lectures/data_science/plotting_with_matplotlib.md)
     * [Building a data visualization app with streamlit](../lectures/data_science/streamlit.md)
 * Exercises
-    * [Project 3](../projects/project3/project3.ipynb)
+    * Project 3
 
 #### Week 46 — Software Optimization and Mixed Programming
 
